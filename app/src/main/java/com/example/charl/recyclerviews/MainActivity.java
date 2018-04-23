@@ -9,7 +9,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-
+//Main
     RecyclerView rv;
     SeriesAdapter adapter;
     ArrayList<Series> series;
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         prepareSeries();
         cont = series.size();
-        
+
 
         adapter=new SeriesAdapter(series);
         rv.setAdapter(adapter);
